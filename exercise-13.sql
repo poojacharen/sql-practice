@@ -2,7 +2,6 @@ SELECT first_name, last_name, department
 FROM employees
 WHERE department IN ('HR', 'Sales');
 
-
 -- Why Do We Use IN?
 -- The IN operator is used to match multiple values in a single column.
 
