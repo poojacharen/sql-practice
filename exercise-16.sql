@@ -1,7 +1,6 @@
 SELECT COUNT(DISTINCT department) AS unique_departments
 FROM employees;
 
-
 -- Why Do We Use COUNT(DISTINCT column)?
 -- The DISTINCT keyword ensures only unique values are considered in the count.
 
