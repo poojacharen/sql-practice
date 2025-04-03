@@ -3,7 +3,6 @@ FROM employees
 ORDER BY salary DESC
 LIMIT 3;
 
-
 -- Why Do We Use LIMIT?
 -- LIMIT is used to restrict the number of rows returned by a query.
 
