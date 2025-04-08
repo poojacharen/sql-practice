@@ -1,3 +1,8 @@
+-- ### **Exercise 46: Filtering Employees by Salary and Department**
+-- **Question:**  
+-- Write a query to find all employees who are in the **IT** department **and** earn more than 65000. 
+
+
 SELECT first_name, last_name, department, salary
 FROM employees
 WHERE department = 'IT' AND salary > 65000;
