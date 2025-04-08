@@ -1,3 +1,7 @@
+-- ### **Exercise 47: Find Departments with Only One Employee**
+-- **Question:**  
+-- Write a query to find departments that have **exactly one employee**.  
+
 SELECT department
 FROM employees
 GROUP BY department
