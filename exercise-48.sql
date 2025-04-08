@@ -1,3 +1,7 @@
+-- ### **Exercise 48: Use LIKE to Find Names Starting with A or D**
+-- **Question:**  
+-- Write a query to find employees whose **first names start with 'A' or 'D'**.  
+
 SELECT first_name, last_name
 FROM employees
 WHERE first_name LIKE 'A%' OR first_name LIKE 'D%';
