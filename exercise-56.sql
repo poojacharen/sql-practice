@@ -2,7 +2,10 @@
 -- **Question:**  
 -- Write a query to list all employees who work in the **HR**, **IT**, or **Sales** departments.
 
-SELECT first_name, last_name, department
+SELECT 
+  first_name, 
+  last_name, 
+  department
 FROM employees
 WHERE department IN ('HR', 'IT', 'Sales');
 
