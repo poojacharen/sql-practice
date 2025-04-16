@@ -2,7 +2,6 @@ SELECT first_name, last_name, salary
 FROM employees
 WHERE salary BETWEEN 50000 AND 60000;
 
-
 -- Why Do We Use BETWEEN?
 -- BETWEEN is a range filtering operator in SQL.
 
