@@ -19,4 +19,4 @@ JOIN (
 -- - The outer query joins this result and subtracts it from each employee's salary.
 -- - `ROUND(..., 2)` keeps the result formatted to two decimal places.
 
--- 💡 This technique helps compare individual performance or compensation against group averages!
+-- 💡 This technique helps compare individual performance or compensation against group averages!!!
