@@ -14,4 +14,4 @@ WHERE department LIKE 'S%';
 -- - `LIKE 'S%'` filters rows where the department name begins with `'S'`.
 -- - `%` is a wildcard that matches any number of characters.
 
--- 💡 Use this approach whenever you need to filter based on the beginning of a string.
+-- 💡 Use this approach whenever you need to filter based on the beginning of a string!!!
