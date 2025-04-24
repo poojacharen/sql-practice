@@ -12,4 +12,4 @@ WHERE first_name LIKE '_e%';
 -- - The underscore (`_`) matches exactly one character.
 -- - `%` matches any sequence of characters.
 
--- 💡 This pattern is powerful when you want to match a character at a specific position in a string!
+-- 💡 This pattern is powerful when you want to match a character at a specific position in a string!!!
