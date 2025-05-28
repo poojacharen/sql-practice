@@ -6,12 +6,14 @@
 
 SELECT first_name
 FROM employees
-WHERE LOWER(LEFT(first_name, 1)) = LOWER(RIGHT(first_name, 1));
+WHERE LENGTH(first_name) > 4
+  AND LOWER(first_name) LIKE '%e';
 
 
--- ### ✅ **Why This Works:**
--- - `LEFT(first_name, 1)` gets the first character.
--- - `RIGHT(first_name, 1)` gets the last character.
--- - `LOWER(...)` makes the comparison case-insensitive.
 
--- 💡 This is a useful pattern when checking symmetric conditions or constructing filters based on patterns in strings.
+**🔍 Explanation:**
+- `LENGTH(first_name) > 4` filters names longer than 4 characters.
+- `LOWER(first_name) LIKE '%e'` ensures the name ends with a lowercase 'e'.
+- We use `LOWER()` to make the check case-insensitive.
+
+🎉 Well done! This query returns the correct result as expected.
