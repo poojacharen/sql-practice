@@ -3,13 +3,16 @@
 -- -- **Question:**  
 -- -- Write a SQL query to list `department_id` and the number of employees in each department, **only for departments that have more than 2 employees**.
 
-SELECT first_name
+SELECT first_name, 
+  COUNT(*) AS name_count
 FROM employees
-GROUP BY first_name
-HAVING COUNT(*) > 1;
+GROUP BY first_name;
 
 
--- ✅ Explanation:
--- GROUP BY first_name: Groups the rows by each unique first name.
+-- You're grouping the data by first_name to count how many times each name appears.
 
--- HAVING COUNT(*) > 1: Filters only those names that occur more than once.
+-- COUNT(*) tallies the number of rows for each grouped first_name.
+
+-- This gives you a count of employees who share the same first name.
+
+-- 💡 Optional Enhancement: You can add ORDER BY name_count DESC to show the most common first names at the top.
