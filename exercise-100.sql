@@ -10,6 +10,7 @@ GROUP BY department
 HAVING SUM(salary) > 100000;
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `GROUP BY department` groups rows by department.
 -- - `SUM(salary)` calculates the total salary per department.
