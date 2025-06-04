@@ -8,4 +8,5 @@ GROUP BY MONTH(bonus_date)
 ORDER BY month;
 
 
+
 -- Good for line charts — this query groups bonus payouts month-wise for a given year.
