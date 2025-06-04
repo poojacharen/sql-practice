@@ -8,5 +8,6 @@ GROUP BY employee_id
 HAVING COUNT(DISTINCT MONTH(bonus_date)) = 3;
 
 
+
 -- This uses GROUP BY and HAVING with a condition to count how many distinct months each employee received a bonus. If it’s 3, it means they got one in Jan, Feb, and Mar.
 
