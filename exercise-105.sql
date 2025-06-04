@@ -9,4 +9,5 @@ ORDER BY avg_salary DESC
 LIMIT 1;
 
 
+
 -- Joining with the departments table helps name the department, and sorting the average salary descending lets us fetch the top.
