@@ -10,6 +10,7 @@ JOIN departments d
   ON e.department = d.dept_code;
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `JOIN departments ON e.department = d.dept_code` matches the employee's department with the full department name.
 -- - This allows displaying readable department names alongside employee data.
