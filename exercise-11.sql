@@ -3,6 +3,7 @@ FROM employees
 WHERE first_name LIKE 'A%';
 
 
+
 -- The LIKE operator is used for pattern matching in SQL.
 
 -- The wildcard % represents any sequence of characters (including an empty sequence).
