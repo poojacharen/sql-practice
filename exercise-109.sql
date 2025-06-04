@@ -8,5 +8,6 @@ JOIN departments d ON e.department_id = d.id
 GROUP BY d.name;
 
 
+
 -- This gives a summary per department using aggregate functions and a join.
 
