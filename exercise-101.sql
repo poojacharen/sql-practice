@@ -5,5 +5,6 @@ FROM employees
 WHERE salary > (SELECT AVG(salary) FROM employees);
 
 
+
 -- We use a subquery to calculate the average salary. The outer query filters all employees whose salary exceeds that average.
 
