@@ -15,6 +15,7 @@ JOIN (
 WHERE e.salary > d.avg_salary;
 
 
+
 -- ### ✅ **Why This Works:**
 -- - The subquery calculates the average salary per department.
 -- - The outer query joins this result with each employee.
