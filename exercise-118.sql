@@ -9,6 +9,7 @@ GROUP BY department
 HAVING AVG(salary) > 55000 AND COUNT(*) >= 2;
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `GROUP BY department` aggregates data per department.
 -- - `AVG(salary)` calculates average salary.
