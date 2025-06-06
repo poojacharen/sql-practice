@@ -9,6 +9,7 @@ FROM employees
 WHERE last_name LIKE '%son';
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `LIKE '%son'` filters strings that **end** with `'son'`.
 -- - `%` is a wildcard that matches **any number of characters** before `'son'`.
