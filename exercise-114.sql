@@ -13,6 +13,7 @@ ORDER BY d.dept_name;
 
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `LEFT JOIN` keeps all departments even if there are no matching employees.
 -- - `COUNT(e.employee_id)` counts only the non-null matches.
