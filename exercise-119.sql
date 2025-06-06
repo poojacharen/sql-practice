@@ -15,6 +15,7 @@ WHERE e.salary BETWEEN d.avg_salary * 0.9 AND d.avg_salary * 1.1;
 
 
 
+
 -- ### ✅ **Why This Works:**
 -- - The subquery computes the average salary per department.
 -- - We join the average back with the employees table using department.
