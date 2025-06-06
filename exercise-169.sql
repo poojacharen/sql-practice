@@ -27,11 +27,9 @@ CROSS JOIN
 
 
 
--- Explanation:
--- company_avg_cte: Computes the overall company average salary.
-
--- department_avg_cte: Computes the average salary per department.
-
--- CROSS JOIN: Pairs each department with the single company average.
-
--- CASE: Compares each department’s average to the company average.
+-- ### ✅ Explanation:
+-- - **`company_avg_cte`** computes the overall company average salary using `AVG(salary)`.
+-- - **`department_avg_cte`** calculates average salary per department with `GROUP BY department`.
+-- - The main query **joins** both CTEs, comparing `department_avg` to `company_avg`.
+-- - **`CASE WHEN`** is used to label whether the department is `'above'` or `'below'` the company average.
+-- - **`ROUND()`** ensures the average values are cleanly formatted.
