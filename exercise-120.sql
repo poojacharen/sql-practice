@@ -9,6 +9,7 @@ GROUP BY start_year
 HAVING COUNT(*) >= 2;
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `GROUP BY start_year` groups rows by each year.
 -- - `COUNT(*)` tallies how many employees joined that year.
