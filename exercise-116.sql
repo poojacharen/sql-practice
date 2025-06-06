@@ -11,6 +11,7 @@ JOIN employees e2
   ON e1.department = e2.department
   AND e1.employee_id < e2.employee_id;
 
+
 -- ### ✅ **Why This Works:**
 -- - This is a **self-join** where we match employees in the same department.
 -- - The condition `e1.employee_id < e2.employee_id` avoids duplicates (e.g., Alice–Emma and Emma–Alice) and self-pairs.
