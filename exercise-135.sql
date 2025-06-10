@@ -9,6 +9,7 @@ HAVING COUNT(*) > 1;
 
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `GROUP BY first_name` combines all rows with the same name.
 -- - `HAVING COUNT(*) > 1` filters only those names that occur more than once.
