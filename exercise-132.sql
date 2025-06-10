@@ -10,6 +10,7 @@ WHERE dept_code NOT IN (
 );
 
 
+
 -- ### ✅ **Why This Works:**
 -- - The subquery selects all departments currently assigned to employees.
 -- - `NOT IN` filters out those departments from the master list in `departments`.
