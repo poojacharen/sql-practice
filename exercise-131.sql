@@ -10,6 +10,7 @@ FROM employees
 WHERE hire_date >= '2023-01-01';
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `hire_date >= '2023-01-01'` filters for employees hired in the last 2 years from `'2025-01-01'`.
 -- - SQL uses ISO 8601 date format (`YYYY-MM-DD`), so comparisons work lexicographically.
