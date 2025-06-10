@@ -11,6 +11,7 @@ GROUP BY department, start_year;
 
 
 
+
 -- ### ✅ **Why This Works:**
 -- - `GROUP BY department, start_year` groups records by both columns.
 -- - `COUNT(employee_id)` counts the number of employees in each group.
