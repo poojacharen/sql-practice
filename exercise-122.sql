@@ -6,6 +6,7 @@
 -- > You can assume names only contain alphabetic characters.
 
 
+
 SELECT first_name
 FROM employees
 WHERE
